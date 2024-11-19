@@ -24,4 +24,34 @@ body {
   .container {
     @apply mx-auto px-4 max-w-7xl;
   }
+
+  .botao {
+    @apply flex justify-center items-center;
+    @apply gap-2 rounded-md px-9 h-9;
+    @apply text-sm font-semibold;
+  }
+
+  .azul {
+    @apply bg-blue-500 text-white;
+  }
+
+  .azul:hover {
+    @apply bg-blue-600;
+  }
+
+  .vermelho {
+    @apply bg-red-500 text-white;
+  }
+
+  .vermelho:hover {
+    @apply bg-red-600;
+  }
+
+  .verde {
+    @apply bg-green-500 text-white;
+  }
+
+  .verde:hover {
+    @apply bg-green-600;
+  }
 }
